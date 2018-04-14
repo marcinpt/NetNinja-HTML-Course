@@ -27,4 +27,24 @@ Przykłady charakterystycznych dla htmla tagów:
 <blockguote>Cytat</blockguote>
 <img>
 
+Lekcja-3
+Tagi
+Patrz przykłady htmlowe w test.html
+
+przyklady tagów
+Paragrafy, nagłówki,...
+
+Atrybuty tagów - sa rozne dla roznych tagow ale sa tez globalne - dla wszystkich tagow. Atrybuty to poprostu wiecej informacji dodatkowej do tagu.
+przykład atrybutu globalnego:
+
+class="nazwaklasy"
+
+style="color: red;" - ten atrybut zmienia kolor tekstu na czerwony. UWAGA atrybut style w tzw inline styling (czyli jak w naszym przykladzie tzn we wnetrzu tagu html) nie jest juz raczej stosowany bo obecnie powszechnie stosujemy CSS gdzie przechowujemy wszystkie nasze style!
+
+inne tagi:
+<em></em> - emphasizing (wyroznienie-italic) mozemy je umiescic we wnetrzu innych tagow np paragrafu.
+<strong></strong> - bold - odpowiednio jw
+
+Zagnierzdzanie tagów: Bywa czesto ze tagi sa zagniezdzane wewnatrz innych - stosujemy wtedy tzw zabkowanie (indented) czyli czynimy kod bardziej czytelny.
+
 
