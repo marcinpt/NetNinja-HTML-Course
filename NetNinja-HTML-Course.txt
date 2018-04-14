@@ -9,4 +9,22 @@ Wprowadzenie i zawartość kursu:
 7 - dodawanie css do strony
 8 - dodawanie JavaScript do strony
 
+Lekcja-2
+HTML - co to jest
+
+Hyper Text Markup Language - to nie jezyk programowania a jezyk prezentacji treści. Opisuje sposób jak ma wygladać strona.
+
+HTML jako 1 z 3 technologii - obok css i javascript - składająca się na wspópłczenie dobrze wyglądające strony.
+
+HTML - struktura
+CSS - Cascadeing Style Sheets - projekt wizualny (kolory, fonty, ...)
+JS - interaktywnosc, (pop-up'y, slide-menu, ...)
+
+Przykłady charakterystycznych dla htmla tagów:
+<p>Paragraf</p>
+<a>Link do innej str</a>
+<h1>Nagłówek</h1>
+<blockguote>Cytat</blockguote>
+<img>
+
 
