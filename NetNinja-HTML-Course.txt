@@ -1,0 +1,12 @@
+Lekcja-1
+Wprowadzenie i zawartość kursu:
+1 - co to jest html
+2 - struktura html
+3 - soft do edycji html
+4 - jak stworzyc strone
+5 - teksty linki listy i obrazy
+6 - rozne inne tagi html
+7 - dodawanie css do strony
+8 - dodawanie JavaScript do strony
+
+
