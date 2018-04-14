@@ -47,4 +47,10 @@ inne tagi:
 
 Zagnierzdzanie tagów: Bywa czesto ze tagi sa zagniezdzane wewnatrz innych - stosujemy wtedy tzw zabkowanie (indented) czyli czynimy kod bardziej czytelny.
 
+Lekcja-4
+Twoja pierwsza strona
+Instalacja darmowego edytora HTML - bracket
+Tworzymy strukture naszej pierwszej strony
+Patrz index.html
+
 
