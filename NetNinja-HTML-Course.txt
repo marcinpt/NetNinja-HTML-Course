@@ -53,4 +53,29 @@ Instalacja darmowego edytora HTML - bracket
 Tworzymy strukture naszej pierwszej strony
 Patrz index.html
 
+Lekcja-5
+Tagi Head i Body
+
+Patrz index.html
+
+head
+W tej sekcji umieszczmy extra informacje o stronie - wazne np dla przegladarki ale ktore nie beda pokazywane uzytkownikowi na stronie
+
+WAZNE - argumenty piszemy bez przecinkow miedzy soba a ich wartosci zawsze w ""
+
+CD odnosnie tego co powinno sie zawierac w head'ach. Czyli krotko co dodalismy:
+meta x3 (charset, keywords, destription)
+title x1 (tu pamietac ze bez ""!)
+link x1 (referencja do CSS - tu tylko pokazujemy jak to zrobic - o css bedzie na oniec kursu)
+
+1szy meta z -arg charset z wart utf-8 - uwaga - tu zamykamy tym />
+2gi meta z -arg name z wart keywords i -arg content z wart <slow kluczy np z tytulu ponizej>
+3ci meta z -arg name o wart desctriotion i -arg content z wart <opis strony>
+title - wiadomo - bylo wczesniej
+link z -arg rel z wart stylesheet -arg type z wart tekst/css i -arg href z wart <sciezka dostepu do css np 	css/main.css>
+
+body
+w tej sekcji umieszczamy wszystko to co chcemy pokazac userowi czyli nagłówki, teksty, listy, tabelki, linki, obrazki, ...
+Dokladniejsze omowienie w nast lekcji.
+
 
