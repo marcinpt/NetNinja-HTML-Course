@@ -78,4 +78,20 @@ body
 w tej sekcji umieszczamy wszystko to co chcemy pokazac userowi czyli nagłówki, teksty, listy, tabelki, linki, obrazki, ...
 Dokladniejsze omowienie w nast lekcji.
 
+Lekcja-6
+Nagłówkowanie(?) i Text (Headings and text)
+
+Mamy 6 poziomow nagłówków - od h1 do h6 przy czym w zupełnoci wystarcza 5.
+Dla porównania w naszym pliku html'owym (index.html) umiescilismy kopie naglowka h1 odpowiednio w tagach od h1 do h5. h1 mozna stosowac np jako tytul strony h2 h3 do sekcji czy rozdzialow, a h4 i h5 do tytulow wyroznionych ale nie bedacymi za bardzo istotnymi...
+
+Paragrafy, texty
+Kilka dodatkowych tagow ktore mozemy stosowac zagniezdzajac w p-tagach (UWAGA - błąd na kursie. Ostani tag pre nie moze byc zagniezdzany wewnatrz!). Sa to:
+-small - ieznacznie pomniejsza czcionke
+-mark - podswietlenie
+-sub - index dolny
+-sup - index gorny
+-pre - pre-format tekstu - to inaczej informacja dla przegladarki zeby nie formatował tego tekstu i wyswietlil go as-is (tak jak jest) - patrz uwaga wyzej!.
+
+Odnosnie ostatniego (pre) pokazujemy jak dziala znak konca lini ENTER wstawiajac go (w srodku zdania) zarowno w 1szym paragrafie (bez zadnych zagniezdzen dodatkowych tagow) jak i w ostatnim gdzie zagniezdzilismy nasz pre.
+
 
