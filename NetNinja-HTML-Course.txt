@@ -100,4 +100,9 @@ Strukturyzacja nagłówków
 Tworzymy prosta strone sklepu rybnego gdzie stosujemy liczne naglowki - poczatkowa wszystkie sa jako h1.
 W przegladarce widzimy ze strona taka jest praktycznie nieczytelna - dlatego stosujemy reguły odpowiedniego stponiowania nagłówkow. W naszym przykladzie h1 jako tytul calej strony a pozostale - jako sekcje - h2. W niektorych sekcjach stosujemy odpowiednio kolejne h3.
 
+Lekcja-8
+StyleDomyslne Przegladarki
+
+To jest tylko wyjasnienie do poprzedniej lekcji (plik index.html - ten sam) dotyczace styli jakie zastosowalismy na naszej stronie. Sa to style domyslne samej przegladarki. Przegladarka ma zdefiniowane style ktora stosuje na podstawie tagow ktore wstawilismy - tagow HTML (h1, h2, p, ...)
+
 
