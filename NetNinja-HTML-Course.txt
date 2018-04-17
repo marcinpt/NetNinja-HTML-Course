@@ -105,4 +105,13 @@ StyleDomyslne Przegladarki
 
 To jest tylko wyjasnienie do poprzedniej lekcji (plik index.html - ten sam) dotyczace styli jakie zastosowalismy na naszej stronie. Sa to style domyslne samej przegladarki. Przegladarka ma zdefiniowane style ktora stosuje na podstawie tagow ktore wstawilismy - tagow HTML (h1, h2, p, ...)
 
+Lekcja-9
+Tag img
+Dodajemy obrazek do naszej strony
+Tworzymy w edytorze Brackets folder o nazwie img i zapisujemy w nim wybrana grafike.
+Tag img to tag pojedynczy - poznajemy kilka argumentów dla tego tagu
+src - sciezka dostepu do obrazka - w naszym przypadku sciezka wzgledna a wiec img/... (pamietamy ze 		wartosci argumentow podajemy w "")
+width - Podajemy jako wartosc 100% która mowi przegladarce ze ze ma ja wyswietlac w calosci (w długosci). 	Jest jeszcze argument hight ale w tym przypadku jest nam niepotrzebny.
+alt - alternatywny tekst w przypadku gdy przegladarka nie obsluguje lub ma wylaczone wyswietlanie grafiki
+
 
