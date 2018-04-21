@@ -155,4 +155,12 @@ Cwiczenia:
 3. Lista definicji - tworzymy plik lists.html i tworzymy liste definicji gdzie pojeciami beda przerabiane wlasnie typy list.
 
 
+Lekcja-12
+Line Breaks and Horizontal Rules
+czyli łamanie lini (zawijanie lini tekstu) i horyzontalna linia.
+1. Line Breaks <br> - jesli mamy jakis długi paragraf to tagiem <br> mozemy "złamać" tekst
+2. Horizontal Rules <hr> - wstawiamy poziomą linie w poprzek całej strony. Słuzy np do segmentacji treści.
+
+Oba przykłady zastosowania w index.html
+
 
