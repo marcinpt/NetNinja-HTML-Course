@@ -163,4 +163,12 @@ czyli łamanie lini (zawijanie lini tekstu) i horyzontalna linia.
 
 Oba przykłady zastosowania w index.html
 
+Lekcja-13
+Tag <div> (od słowa 'divison')
+Tag <div> służy do podziału zawartosci strony na odrebne logiczne sekcje - np nagłówek i tekst powitalny, obszar nawigacyjny, obszar opisowy, obszar kontaktowy, ...itd.
+Zastsosowanie tego tagu nie ma zadnego wizualnego wplywu na wyglad strony! Jest on jednak bardzo przydatny
+- dla programisty - widzi w kodzie strony gdzie jaki segment się znajduje
+- przy zastosowaniu CSS - za pomoca id i klas - łatwiej jest implementować style dla poszczególnych obszarów
+- do zachowania sementyki.
+
 
