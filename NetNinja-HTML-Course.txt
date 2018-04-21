@@ -171,4 +171,14 @@ Zastsosowanie tego tagu nie ma zadnego wizualnego wplywu na wyglad strony! Jest 
 - przy zastosowaniu CSS - za pomoca id i klas - łatwiej jest implementować style dla poszczególnych obszarów
 - do zachowania sementyki.
 
+Lekcja-14
+ID's and Classes
+ID i klasa to poprostu identyfikatory obiektów. W praktyce sa to atrybuty tagu <div> (a wiec wartosci-nazwy argumentów id i class podajemy w cudzysłowie)
+Podstawowa różnica pomiędzy nimi to taka, że id to identyfikator występujący na stronie tylko raz (jest unikalny dla całej strony), natomiast klasa wiele razy i moze byc użyta w różnych miejscach w kodzie strony.
+
+W tej lekcji o-id-ujemy i o-klas-ujemy nasz roboczy plik index.html (dodajemy je do utworzonych w poprzedniej lekcji div'ów) oraz - dla jasności i odróżnienia id i klas utworzymy plik classes.html gdzie ponownie pokazemy kiedy stosowac id a kiedy klasy.
+
+W index.html id dodajemy do div'ów przy raz pojawiających się sekcjach tj naglowek, nawigacja, rodzaje-ryb o-nas, kontakt. Class dodajemy do takich div'ów które sie powtarzaja - czyli w naszym przypadku bedzie to metoda-kontaktu (mamy ich 3 w sekcji kontakt).
+W przykładowym classes.html jest analogicznie. id Komentarze dla div'a okalającego wszystkie komentarze. Sekcja taka jest tylko jedna wiec o-identyfikujemy ja id'ekiem. Co do pojedynczych komentazy wewnatrz sekcji to mamy ich 3 wiec stosujemy class dla kazdego div'a okalajacego pojedyncz komentarz - o nazwie np "pojedynczy-komentarz".
+
 
