@@ -130,4 +130,29 @@ Stanowią materiał do przecwiczenia tworzenia różnych linków.
 
 Na koniec dodalismy mozliwosc otwierania linku w osobnej zakładce - w przypadku gdy nie chcemy zastepowac naszej głównej strony - tj dodanie do tagu a argumentu target o wartosci "_blank" (patrz przykład z linkiem zewn).
 
+Lekcja-11
+Listy w HTML
+Istnieje kilka rodzajów list:
+
+- unordered (nieuporządkowana) - wypuktowana, kolejnosc nie jest wazna w takich listach; stosujemy tagi: <ul> + <li> (<li> - to list item) przykład: <ul>
+<li></li>
+<li></li>
+</ul>
+
+- ordered (uporządkowana) - numerowana liczbami lub literami tam gdzie wazna jest kolejnosc; stosujemy tagi analog jak poprzednio: <ol> + <li>
+
+- definition list (lista definicji) - przypomina słownik; stosujemy tagi: <dl> + <dt> + <dd> (t- term, d - desctription); przykład:
+<dl>
+ <dt>poj1</dt>
+ <dd>def-poj1</dd>
+ <dt>poj2</dt>
+ <dd>def-poj2</dd>
+</dl>
+
+Cwiczenia:
+1. Zastosujemy listy nieuporzadkowanej na utworzonych na poprzedniej lekcji linkach - patrz index.html
+2. Lista uporzadkowana - tworzymy plik how-to.html (...head kopiujemy z index'u) i tworzymy liste. W 2gim kroku stosujemy zagniezdzanie listy - krok 2.1, 2.2, ...itd. Sposobem na to to ponowny zapis <ol> dla tej l. zagniezdzonej.
+3. Lista definicji - tworzymy plik lists.html i tworzymy liste definicji gdzie pojeciami beda przerabiane wlasnie typy list.
+
+
 
