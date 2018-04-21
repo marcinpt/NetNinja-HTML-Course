@@ -64,13 +64,14 @@ W tej sekcji umieszczmy extra informacje o stronie - wazne np dla przegladarki a
 WAZNE - argumenty piszemy bez przecinkow miedzy soba a ich wartosci zawsze w ""
 
 CD odnosnie tego co powinno sie zawierac w head'ach. Czyli krotko co dodalismy:
-meta x3 (charset, keywords, destription)
+meta x3 (charset, name-keywords_content-slowaklucze, name-destription_content-opis)
 title x1 (tu pamietac ze bez ""!)
 link x1 (referencja do CSS - tu tylko pokazujemy jak to zrobic - o css bedzie na oniec kursu)
 
-1szy meta z -arg charset z wart utf-8 - uwaga - tu zamykamy tym />
+1szy meta z -arg charset z wart utf-8 - uwaga - tag meta jest tagiem pojedynczym i tu zamykamy tylko tym: >
 2gi meta z -arg name z wart keywords i -arg content z wart <slow kluczy np z tytulu ponizej>
 3ci meta z -arg name o wart desctriotion i -arg content z wart <opis strony>
+
 title - wiadomo - bylo wczesniej
 link z -arg rel z wart stylesheet -arg type z wart tekst/css i -arg href z wart <sciezka dostepu do css np 	css/main.css>
 
@@ -113,5 +114,20 @@ Tag img to tag pojedynczy - poznajemy kilka argumentów dla tego tagu
 src - sciezka dostepu do obrazka - w naszym przypadku sciezka wzgledna a wiec img/... (pamietamy ze 		wartosci argumentow podajemy w "")
 width - Podajemy jako wartosc 100% która mowi przegladarce ze ze ma ja wyswietlac w calosci (w długosci). 	Jest jeszcze argument hight ale w tym przypadku jest nam niepotrzebny.
 alt - alternatywny tekst w przypadku gdy przegladarka nie obsluguje lub ma wylaczone wyswietlanie grafiki
+
+Lekcja-10
+Linki HTML
+Linki dodajemy poprzez tag a (anchor) - ten w przeciwienstwie do img jest zamykany. oraz jego atrybut href w ktorym podajemy link do zrodla. We wnetrzu a tagu wstawiamy opis linku ktory pokazuje sie na stronie (bez ""):
+<a href="link-zrodlo">opis-linku</a>
+Rodzaje linkow:
+-wewn - odnosi sie do podstron lokalnych na wlasnej stronie - tu w href linki w postaci sciezek wzglednych
+-zewn - odnosi sie do zewn stron - tu w href link w postaci adresu url gdzie koniecznie na poczatku nalezy 	podac protokół - http://...
+- pobieranie - link do pliku ktory chcemy pobrac - w href link wzgledny do pliku
+- kotwica - link do okreslonej czesci strony. Tu podajemy w href wartosc "#nazwa-id" (uwaga na pocz jest #) ktora potem umeszczamy w miejscu do ktorego ma nas przeniesc jako: <div id="nazwa-id"></div> (tu nazwa-id bez #)
+
+W naszym projekce strony rozbudowujemy strukture plików i katalogów - patrz wnetrze katalogu NetNinja-HTML-Course. Dodalismy katalogi price i download, pare plikow html (w głównym i podfolderach) i pusty plik pdf.
+Stanowią materiał do przecwiczenia tworzenia różnych linków.
+
+Na koniec dodalismy mozliwosc otwierania linku w osobnej zakładce - w przypadku gdy nie chcemy zastepowac naszej głównej strony - tj dodanie do tagu a argumentu target o wartosci "_blank" (patrz przykład z linkiem zewn).
 
 
