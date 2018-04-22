@@ -181,4 +181,37 @@ W tej lekcji o-id-ujemy i o-klas-ujemy nasz roboczy plik index.html (dodajemy je
 W index.html id dodajemy do div'ów przy raz pojawiających się sekcjach tj naglowek, nawigacja, rodzaje-ryb o-nas, kontakt. Class dodajemy do takich div'ów które sie powtarzaja - czyli w naszym przypadku bedzie to metoda-kontaktu (mamy ich 3 w sekcji kontakt).
 W przykładowym classes.html jest analogicznie. id Komentarze dla div'a okalającego wszystkie komentarze. Sekcja taka jest tylko jedna wiec o-identyfikujemy ja id'ekiem. Co do pojedynczych komentazy wewnatrz sekcji to mamy ich 3 wiec stosujemy class dla kazdego div'a okalajacego pojedyncz komentarz - o nazwie np "pojedynczy-komentarz".
 
+Lekcja-15
+Dodawanie CSS do HTML
+Lekcja nie jest kursem css tylko pokazuje sposoby jego dodawania:
+- Poprzez bezposrednie uzycie atrybutu style w tagach html tzn dodawanie stylów in-line. Przykład:
+<a style="color: red;" href="costam/costam.html">Link</a>
+
+- Poprzez wstawianie tagu <style> w nagłówku html, odniesienie sie do konkretnych wczesniej poznanych 
+id/ klas oraz okreslenie stylów dla posczególnych tagów (np dla tagu a). Przyklad:
+<style>
+	#navigation a{
+		color: red;
+	}
+</style>
+
+- Poprzez utworzenie pliku css i pod-linkowanie w nagłówkach plików html (tag <link> z atrybutami rel, type, href) - tu uwaga: trzeba koniecznie pamietac o prawidlowych sciezkach wzgeldnych dla plikow ktore sie znajdja w podkatalogach (../costamcostam/main.css).
+
+W praktyce dwa pierwsze sa wykorzystywane bardzo rzadko z powodu ich malej efektywnosci - np w przypadkach rozbudowanych stron i wielu podstron.
+
+Pierwsze 2 sposoby zastosowalismy w index.html:
+stylowanie inline - zmienilismy kolor jednego z linków w sekcji nawigacja
+stylowanie w naglowku - zmieniamy kolor wszystkich linkow sekcji nawigacja
+
+Po sprawdzeniu efektów - rezygnujemy i usuwamy ww stylowanie - na rzecz pliku css
+
+Ostatni stylowanie za pomoca pliku css - tworzymy plik main.css w kat scc (zgodnie z linkami które mamy juz od samego poczatku kursu). Zmieniamy czcionke naglowkow h1 na uppercase i dekorujemy wstawiajac podkreslenia:
+h1{
+	color: blue;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+W jednym z plikow znajdujacego sie w podfolderze nie nastapila zmiana z powodu - jak wczesniej zostalo wspomniane - zlej sciezki dostepu do pliku css. Została poprawiona.
+
 
