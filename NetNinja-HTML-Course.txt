@@ -232,11 +232,19 @@ alert("jakis tam tekst");
 <script src="costam/plik.js"></script>
 
 - in-line - umieszczamy wewnatrz tagów np:
-	<a onklik="alert('text jakiegos alertu')" href="costam/costam">Link</a>
+	<a onclick="alert('text jakiegos alertu');" href="costam/costam">Link</a>
 	
 	Uwaga: zauwaz ze tekst alertu jest w pojedynczych cudzysłowach (inaczej jak w poprzednich 		sposobach) - to dlatego ze podwojny zamykałby wartosc argumentu onklik.
 
-Co istotne w pierwszych dwóch sposobach - ma znaczenie w którym miejscu skrypt (bądz linkowanie) umieszczamy - na poczatku w head'ach czy na końcu w body'ach. Przegladarka renderuje kod do momentu pojawienia sie skryptu - wtedy renderowanie sekcji body html'a zatrzymuje sie do momentu wyknania skryptu. Jesli wiec umiescimy go head'ach to najpierw wykonuje sie skrypt (strona jeszcze sie nie wyswietli), natomiast jesli w body to strona "zdązy" się wyswietlic.  Dlatego w wiekszosc wypadków skrypt powinnismy umieszczac jednak na koncu sekcji body (rekomendacja).
+Co istotne w pierwszych dwóch sposobach - ma znaczenie w którym miejscu skrypt (bądz linkowanie) umieszczamy - na poczatku w head'ach czy na końcu w body'ach. Przegladarka renderuje kod do momentu pojawienia sie skryptu - wtedy renderowanie sekcji body html'a zatrzymuje sie do momentu wyknania skryptu. Jesli wiec umiescimy go head'ach to najpierw wykonuje sie skrypt (strona jeszcze sie nie wyswietli), natomiast jesli w body to strona "zdązy" się wyswietlic.  Dlatego w wiekszosc wypadków skrypt powinnismy umieszczac jednak na koncu sekcji body (rekomendacja, ale są wyjątki od tej reguły!).
 1-szy i 3-ci sposób - podobnie jak w css - na stronach rozbudowanych nie jest sposobem efektywnym w przypadku zmian. Najpowszechniejszym sposobem jest tworzenie pliku *.js i linkowania w html'u.
 
+Lekcja-17
+Co dalej?
+Materiały które przrobilismy to tylko podstawy czystego html'a
+Dalsze ulepszanie wyglądu naszej testowej strony wiąże się z kolejnym koniecznym kursem z zakresu CSS. Dzieki niemu wyglad naszej strony znacznie sie polepszy.
+Co do html rekomendowana strona na ktorej znalezc mozna wszystkie tagi wraz z ich opisem, składnią i przykładami uzycia: docs.webplatform.org.wiki/html
+Kolejne polecane miejsce z wieloma kursami dla bardziej zaawansowanych: html5rocks.com
+
+KONIEC
 
